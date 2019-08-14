@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "/homes", to "homes#index"
+  get '/homes', to: 'homes#index'
 end
