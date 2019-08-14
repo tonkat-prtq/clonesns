@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_08_14_140300) do
   enable_extension "plpgsql"
 
   create_table "homes", force: :cascade do |t|
+    t.text "content"
   end
 
 end
