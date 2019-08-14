@@ -1,6 +1,6 @@
 <h1>new post</h1>
 
-<%= form_with(model: Home.new) do |form| %>
+<%= form_with(model: @home) do |form| %>
   <div class="home_content">
     <%= form.label :content %>
     <%= form.text_area :content %>

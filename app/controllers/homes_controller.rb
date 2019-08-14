@@ -3,5 +3,6 @@ class HomesController < ApplicationController
   end
 
   def new
+    @home = Home.new
   end
 end
