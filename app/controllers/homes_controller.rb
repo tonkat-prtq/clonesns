@@ -19,6 +19,10 @@ class HomesController < ApplicationController
       end
     end
   end
+
+  def show
+    @home = Home.find(params[:id])
+  end
 end
 
   private
