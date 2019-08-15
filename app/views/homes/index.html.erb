@@ -7,6 +7,7 @@
   <% @homes.each do |home| %>
   <tr>
     <td><%= home.content %></td>
+    <td><%= link_to '詳細を確認する', home_path(home.id) %></td>
   </tr>
   <% end %>
 </table>
