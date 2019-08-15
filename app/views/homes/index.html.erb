@@ -1,1 +1,12 @@
-<h1>test</h1>
+<h1>すべての投稿</h1>
+<table>
+  <tr>
+    <th>内容</th>
+  </tr>
+
+  <% @homes.each do |home| %>
+  <tr>
+    <td><%= home.content %></td>
+  </tr>
+  <% end %>
+</table>
