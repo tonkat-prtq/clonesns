@@ -1,5 +1,5 @@
 class HomesController < ApplicationController
-  before_action :set_home, only: [:show, :edit, :update]
+  before_action :set_home, only: [:show, :edit, :update, :destroy]
   def index
     @homes = Home.all
   end
@@ -35,6 +35,8 @@ class HomesController < ApplicationController
     end
   end
 
+  def destroy
+  end
 
   private
 
