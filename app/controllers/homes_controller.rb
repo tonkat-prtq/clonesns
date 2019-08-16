@@ -40,6 +40,10 @@ class HomesController < ApplicationController
     redirect_to homes_path, notice: "投稿を削除しました"
   end
 
+  def confirm
+    @home = Home.new(home_params)
+  end
+  
   private
 
   def home_params
