@@ -9,6 +9,7 @@
   <tr>
     <td><%= home.content %></td>
     <td><%= link_to '詳細を確認する', home_path(home.id) %></td>
+    <td><%= link_to '投稿を編集する', edit_home_path(home.id) %></td>
   </tr>
   <% end %>
 </table>
