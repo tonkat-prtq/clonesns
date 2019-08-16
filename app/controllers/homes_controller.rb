@@ -28,7 +28,14 @@ class HomesController < ApplicationController
     @home = Home.find(params[:id])
   end
 
-
+  def update
+    @home = Home.find(params[:id])
+    if @home.update(home_params)
+      redirect_to homes_path, notice: "投稿を編集しました"
+    else
+      render :edit
+    end
+  end
 end
 
   private
