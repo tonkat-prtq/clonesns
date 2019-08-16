@@ -42,8 +42,9 @@ class HomesController < ApplicationController
 
   def confirm
     @home = Home.new(home_params)
+    render :new if @blog.invalid?
   end
-  
+
   private
 
   def home_params
