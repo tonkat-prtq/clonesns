@@ -1,0 +1,21 @@
+<%= form_with(model: @home, local: true) do |form| %>
+  <% if @home.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @home.errors.count %>件のエラーがあります。</h2>
+      <ul>
+
+      <% @home.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="home_content">
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+  </div>
+  <%= form.submit %>
+<% end %>
+
+<%= link_to "投稿一覧画面に戻る", homes_path %>
