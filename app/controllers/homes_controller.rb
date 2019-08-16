@@ -25,8 +25,10 @@ class HomesController < ApplicationController
   end
 
   def edit
-    @blog = Home.find(params[:id])
+    @home = Home.find(params[:id])
   end
+
+
 end
 
   private
