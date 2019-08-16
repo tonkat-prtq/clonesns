@@ -10,7 +10,7 @@
     <td><%= home.content %></td>
     <td><%= link_to '詳細を確認する', home_path(home.id) %></td>
     <td><%= link_to '投稿を編集する', edit_home_path(home.id) %></td>
-    <td><%= link_to '投稿を削除する', home_path(home.id), method: :delete %></td>
+    <td><%= link_to '投稿を削除する', home_path(home.id), method: :delete, data: { confirm: '本当に削除しますか？' } %></td>
   </tr>
   <% end %>
 </table>
