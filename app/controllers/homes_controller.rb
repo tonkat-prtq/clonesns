@@ -1,4 +1,5 @@
 class HomesController < ApplicationController
+  before_action :set_home, only: [:show, :edit, :update]
   def index
     @homes = Home.all
   end
@@ -21,25 +22,27 @@ class HomesController < ApplicationController
   end
 
   def show
-    @home = Home.find(params[:id])
   end
 
   def edit
-    @home = Home.find(params[:id])
   end
 
   def update
-    @home = Home.find(params[:id])
     if @home.update(home_params)
       redirect_to homes_path, notice: "投稿を編集しました"
     else
       render :edit
     end
   end
-end
+
 
   private
 
   def home_params
   params.require(:home).permit(:content)
   end
+
+  def set_home
+    @home = Home.find(params[:id])
+  end
+end
