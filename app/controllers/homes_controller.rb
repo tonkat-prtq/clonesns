@@ -14,7 +14,7 @@ class HomesController < ApplicationController
       render :new
     else
       if @home.save
-        redirect_to homes_path, notice: "新規メッセージを投稿しました！"
+        redirect_to homes_path, notice: "新規投稿しました"
       else
       render :new
       end
@@ -36,6 +36,8 @@ class HomesController < ApplicationController
   end
 
   def destroy
+    @home.destroy
+    redirect_to homes_path, notice: "投稿を削除しました"
   end
 
   private
