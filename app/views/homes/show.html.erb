@@ -2,6 +2,8 @@
 <html lang="jp">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../app/assets/stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="../app/assets/stylesheets/normalize.css">
     <title>CloneSNS</title>
   </head>
   <body>
@@ -9,8 +11,9 @@
       <h1>CloneSNS</h1>
       <p>投稿詳細画面</p>
     </header>
-    <div class="show_container">
-      <p>内容: <%= @home.content %></p>
+    <div class="show-container">
+      <p class="title">内容</p>
+      <p class="post"> <%= @home.content %></p>
     </div>
     <footer>
       <p>Since 2019</p>
