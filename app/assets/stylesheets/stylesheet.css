@@ -1,6 +1,63 @@
 html {
-  background-color: green;
+  height: 100%;
 }
+
+body {
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  width: 100%;
+  background-color: grey;
+  height: 80px;
+  padding:20px 0;
+}
+
 header h1 {
   color: skyblue;
+  margin: 0;
+}
+
+.top-content {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-content table {
+  margin: 0  auto 30px;
+  border-color: gray;
+  border-top-width: 0px;
+
+}
+
+.top-content th {
+  padding-bottom: 10px;
+}
+
+.top-content td {
+  padding: 10px 5px;
+}
+
+.top-content a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.clearborder {
+  border-style: none;
+}
+
+.mainpost {
+  width: 50%;
+}
+
+footer {
+  background-color: whitesmoke;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
 }
