@@ -9,24 +9,20 @@
       <h1>CloneSNS</h1>
       <p>確認画面</p>
     </header>
-  <div class="container">
-    <h3>以下の内容で、投稿する。</h3>
+    <div class="container">
+      <h3>以下の内容で、投稿する。</h3>
 
-    <%= form_with(model: @home, url: homes_path, local: true) do |form| %>
+      <%= form_with(model: @home, url: homes_path, local: true) do |form| %>
       <%= form.hidden_field :content %>
 
       <p>本文:<%= @home.content %></p>
-      <div class="btn-submit btn">
-      <%= form.submit  "投稿する" %>
-      </div>
 
-      <div class="btn-back">
-      <%= form.submit "戻る", name: 'back' %>
-      </div>
+      <%= form.submit "投稿する", class: "btn-submit btn" %>
+      <%= form.submit "戻る", name: 'back', class: "btn-back btn" %>
     <% end %>
   </div>
   <footer>
     <p>Since 2019</p>
   </footer>
-  </body>
+</body>
 </html>
