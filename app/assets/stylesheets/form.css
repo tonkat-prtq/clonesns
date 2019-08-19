@@ -10,6 +10,7 @@
   width: 10rem;
   height: 3rem;
   letter-spacing:0.1rem;
+  text-align: center;
 }
 
 .home-content textarea {

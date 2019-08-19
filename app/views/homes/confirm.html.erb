@@ -2,9 +2,6 @@
 <html lang="jp">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../app/assets/stylesheets/stylesheet.css">
-    <link rel="stylesheet" href="../app/assets/stylesheets/normalize.css">
-    <link rel="stylesheet" href="../app/assets/stylesheets/form.css">
     <title>CloneSNS</title>
   </head>
   <body>
@@ -19,9 +16,13 @@
       <%= form.hidden_field :content %>
 
       <p>本文:<%= @home.content %></p>
-      <%= form.submit  "投稿する", class: "btn btn-submit" %>
+      <div class="btn-submit btn">
+      <%= form.submit  "投稿する" %>
+      </div>
 
-      <%= form.submit "戻る", name: 'back', class: "btn btn-back" %>
+      <div class="btn-back">
+      <%= form.submit "戻る", name: 'back' %>
+      </div>
     <% end %>
   </div>
   <footer>
