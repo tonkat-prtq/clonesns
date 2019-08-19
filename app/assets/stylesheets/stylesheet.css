@@ -26,6 +26,15 @@ header h1 {
   margin: 0 auto;
 }
 
+.container a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.container a:hover {
+  opacity: 0.6;
+}
+
 .top-content table {
   margin: 0 auto 30px;
   border-color: gray;
@@ -38,11 +47,6 @@ header h1 {
 
 .top-content td {
   padding: 10px 5px;
-}
-
-.top-content a {
-  text-decoration: none;
-  color: slategray;
 }
 
 .clearborder {
