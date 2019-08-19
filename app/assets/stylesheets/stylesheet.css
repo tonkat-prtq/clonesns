@@ -19,7 +19,7 @@ header h1 {
   margin: 0;
 }
 
-.top-content {
+.container {
   min-height: 100%;
   position: relative;
   width: 100%;
@@ -51,6 +51,14 @@ header h1 {
 
 .mainpost {
   width: 50%;
+}
+
+p.title {
+  border-bottom: dotted 2px khaki;
+}
+
+p.post {
+  font-size: 2rem;
 }
 
 footer {
