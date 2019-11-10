@@ -1,0 +1,19 @@
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/k2t/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191109-53698-1ot6baz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20191109-53698-1mjw2j7/byebug

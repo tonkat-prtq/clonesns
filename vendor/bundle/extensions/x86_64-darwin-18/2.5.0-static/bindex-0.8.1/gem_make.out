@@ -1,0 +1,15 @@
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/Users/k2t/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191109-53698-1g8gmij.rb extconf.rb
+creating Makefile
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191109-53698-tkxhg4/skiptrace/internal

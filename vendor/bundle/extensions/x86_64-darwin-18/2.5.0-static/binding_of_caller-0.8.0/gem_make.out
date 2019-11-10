@@ -1,0 +1,16 @@
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/Users/k2t/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191109-53698-19j0q6n.rb extconf.rb
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

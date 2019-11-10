@@ -1,0 +1,15 @@
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/k2t/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191109-53698-xsubvw.rb extconf.rb
+creating Makefile
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/k2t/workspace/clonesns/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20191109-53698-10yy4bj
